@@ -10,7 +10,8 @@ class Application
     item_name = req.path.split("/items/").last
     item = @@items.find{|i| i.name == item_name}
     if item == nil 
-      resp.write 
+      resp.write "item not found"
+      
 
 =begin
       resp.write "You requested the songs"
