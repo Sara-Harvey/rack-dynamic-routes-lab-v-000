@@ -14,6 +14,7 @@ class Application
       resp.status = 404 
     else 
       resp.write item.price
+      resp.status = 200
       
 
 =begin
