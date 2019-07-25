@@ -6,6 +6,6 @@ else
   
 
 
-  #
+#if requests, return the price of that item
   
   /items/<Item Name>
