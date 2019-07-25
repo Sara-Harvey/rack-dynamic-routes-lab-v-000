@@ -13,6 +13,7 @@ class Application
       resp.write "item not found"
       resp.status = 404 
     else 
+      resp.write 
 
 =begin
       resp.write "You requested the songs"
