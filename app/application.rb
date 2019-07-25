@@ -8,7 +8,7 @@ class Application
  
     if req.path.match("/items/").last
     item_name = req.path.split("/items/").last
-    item = @@items.find 
+    item = @@items.find{}
 
 =begin
       resp.write "You requested the songs"
