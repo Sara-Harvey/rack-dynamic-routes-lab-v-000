@@ -11,7 +11,7 @@ class Application
     item = @@items.find{|i| i.name == item_name}
     if item == nil 
       resp.write "item not found"
-      
+      resp.status = 404 
 
 =begin
       resp.write "You requested the songs"
