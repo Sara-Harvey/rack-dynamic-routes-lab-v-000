@@ -7,8 +7,9 @@ class Application
     req = Rack::Request.new(env)
  
     if req.path.match("/items/").last
+    item = 
 
-
+=begin
       resp.write "You requested the songs"
     else
       resp.write "Route not found"
@@ -35,4 +36,5 @@ else
  
     resp.finish
   end
+=end
 end
