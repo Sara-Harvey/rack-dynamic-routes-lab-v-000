@@ -32,7 +32,3 @@ else
     resp.finish
   end
 end
-
-  
-  
-end
